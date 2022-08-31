@@ -31,12 +31,50 @@ Take note of the various variables and their data types. Write a brief summary i
 * Its data type
 * and example values you can assign them.
 
+// integer variable
+* int people = 3;
+* int: datatype; 
+* people: variable; 
+* 3: assignment
+
+// floating point variable
+* float ticketPrice = 14.0f;
+* float: datatype; 
+* ticketPrice: variable; 
+* 14.0f: assignment
+
+// double precision floating point variable
+* double itemPrice = 9.0;
+* double: datatype; 
+* itemPrice: variable; 
+* 9.0: assignment
+
+// boolean variable
+* boolean trueOrFalse = false;
+* boolean: datatype; 
+* trueOrFalse: variable; 
+* false: assignment
+
 Next give TWO example variable names and TWO example variable assignments that are *WRONG* and explain why.
 * Hint: your IDE can help you discover these!
+      
+      floating ticketPrice = 14.0f;
+      integer people = 3;
+      double itemPrice = 7;
+      boolean trueOrFalse = 7;
 
 ### Part 3 - Bonus: Play around with Java String Format Specifiers.
 
 Pick several of the Java format specifiers below and define variables of the correct type utilize *sout* and *String.format* to view the resulting formats.
+    
+    String scriptTemplateLine5 = "%b";
+    System.out.println(
+    String.format(scriptTemplateLine5, null)
+
+    Integer tenHundred = Integer.getInteger("1000");
+    int tenH = tenHundred.intValue();
+    //  variable
+    char
 
 ![Format Specifiers](JavaStringFormatSpecifiers.png)
 
